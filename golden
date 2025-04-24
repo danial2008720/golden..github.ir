@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOLDEN MOBILE</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn&family=Poppins:wght@600&display=swap');
+
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      background: linear-gradient(135deg, #000000, #1f1f1f);
+      color: #ffd700;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .header {
+      background-color: #111;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 1em;
+      color: #ffd700;
+    }
+
+    .logo {
+      width: 150px;
+      height: 150px;
+      margin: 30px auto;
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    h1 {
+      font-family: 'Poppins', sans-serif;
+      color: #ffd700;
+      font-size: 3em;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .description {
+      background-color: rgba(255, 215, 0, 0.08);
+      padding: 20px;
+      border-radius: 15px;
+      width: 90%;
+      margin: 20px auto;
+      line-height: 2;
+      color: #eee;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 15px;
+      padding: 12px 25px;
+      border-radius: 50px;
+      font-size: 1em;
+      font-weight: bold;
+      text-decoration: none;
+      color: #000;
+      background-color: #ffd700;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #e0b900;
+    }
+
+    .map {
+      background-color: #333;
+      color: #fff;
+    }
+
+    .social-btn {
+      padding: 15px 30px;
+      border-radius: 30px;
+      font-size: 1.1em;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+      margin: 10px;
+      display: inline-block;
+      transition: all 0.3s ease;
+    }
+
+    .instagram { background-color: #e4405f; }
+    .telegram  { background-color: #0088cc; }
+    .whatsapp  { background-color: #25D366; }
+
+    .social-btn:hover {
+      transform: scale(1.1);
+    }
+
+    .contacts {
+      margin: 30px 0;
+    }
+
+    .call-btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      border: 2px solid #ffd700;
+      color: #ffd700;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .call-btn:hover {
+      background-color: #ffd700;
+      color: #000;
+    }
+
+    footer {
+      background-color: #111;
+      padding: 10px;
+      color: #888;
+      font-size: 0.8em;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">GOLDEN MOBILE</div>
+
+  <div class="logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Golden_letter_G.png/600px-Golden_letter_G.png" alt="لوگوی G">
+  </div>
+
+  <h1>GOLDEN MOBILE</h1>
+
+  <div class="description">
+    پخش آیفون کارکرده و نو در مشهد
+  </div>
+
+  <a class="btn map" href="https://nshn.ir/7f_b1MYTNJxr-B">مشاهده روی نقشه</a>
+
+  <div>
+    <a class="social-btn instagram" href="https://www.instagram.com/golden_mobile.mashhad">اینستاگرام</a>
+    <a class="social-btn telegram" href="https://t.me/golden_mobile_mashhad">تلگرام</a>
+    <a class="social-btn whatsapp" href="https://chat.whatsapp.com/Ih9ky1kp5byIlsHSGSo19N">واتساپ</a>
+  </div>
+
+  <div class="contacts">
+    <a class="call-btn" href="tel:‪+985191001756‬">00985191001756</a>
+    <a class="call-btn" href="tel:‪+989012405540‬">00989012405540</a>
+    <a class="call-btn" href="tel:‪+989158300037‬">00989158300037</a>
+  </div>
+
+  <footer>
+     GOLDEN SYSTEM - ۱۴۰۴
+  </footer>
+
+</body>
+</html>
